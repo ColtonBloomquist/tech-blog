@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "seeds": "node seeds/index.js",
-    "start": "npm run start"
+    "start": "npm start"
   },
   "author": "",
   "license": "ISC",
