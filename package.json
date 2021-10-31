@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "seeds": "node seeds/index.js"
+    "seeds": "node seeds/index.js",
+    "heroku-prebuild": "npm install -f",
+    "heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "ISC",
